@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8aaeb059dfe203dccf440cd76de51220",
+    "content-hash": "1c714f29a186762bac3780184586fdca",
     "packages": [
         {
             "name": "betterbrief/opauth-salesforce",
@@ -2671,7 +2671,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.0",
+        "php": ">=5.5.0",
         "ext-soap": "*",
         "ext-mbstring": "*"
     },
