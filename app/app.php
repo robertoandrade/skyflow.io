@@ -39,7 +39,7 @@ $app['dev'] = function () {
     } else if (!array_key_exists('SERVER_NAME', $_SERVER)) {
         return false;
     } else {
-        if ($_SERVER['SERVER_NAME'] === 'localhost') {
+        if ($_SERVER['SERVER_NAME'] === 'localhost' || $_SERVER['SERVER_NAME'] === 'skyflow.visaplacedata.local') {
             return true;
         } else {
             return false;
