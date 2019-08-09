@@ -24,7 +24,7 @@
         "heroku/heroku-buildpack-php": "*"
     },
     "scripts": {
-        "post-install-cmd": [
+        "compile": [
             "bower install"
         ]
     },
